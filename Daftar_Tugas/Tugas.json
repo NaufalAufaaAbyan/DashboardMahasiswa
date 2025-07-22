@@ -1,0 +1,14 @@
+[
+  {
+    "MataKuliah": "kalkulus",
+    "Deskripsi": "mtk",
+    "Deadline": "2025-08-01T00:00:00",
+    "Selesai": true
+  },
+  {
+    "MataKuliah": "kap",
+    "Deskripsi": "mahasiswa",
+    "Deadline": "2025-09-03T00:00:00",
+    "Selesai": true
+  }
+]
