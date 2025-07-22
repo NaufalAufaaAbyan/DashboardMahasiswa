@@ -56,6 +56,8 @@ DashboardMahasiswa/
 - Framework: *.NET Framework 4.8.1*
 - Tipe Aplikasi: *Windows Console App*
 - Library: Newtonsoft.Json untuk serialisasi data
+- Newtonsoft.Json
+- using Newtonsoft.Json;
 
 ---
 
