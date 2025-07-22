@@ -41,8 +41,9 @@ DashboardMahasiswa/
 │   └── Tugas.json         ← Tempat penyimpanan data tugas
 │
 ├── Program.cs             ← Entry point program
-├── README.md              ← File dokumentasi ini
-└── .gitignore             ← (Jika ada) file git ignore
+├── README.md              ← File dokumentasi proyek
+└── .gitignore             ← File pengecualian Git (jika ada)
+
 
 
 - Program akan me-load ulang data setiap kali dijalankan.
