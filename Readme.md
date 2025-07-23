@@ -51,23 +51,42 @@ DashboardMahasiswa/
 
 ---
 
-## 🛠 Teknologi
-
-- Bahasa: *C#*
-- Framework: *.NET Framework 4.8.1*
-- Tipe Aplikasi: *Windows Console App*
-- Library: Newtonsoft.Json untuk serialisasi data
-- Newtonsoft.Json
-- using Newtonsoft.Json;
+Pastikan folder `Daftar_Tugas` sudah dibuat, atau akan otomatis dibuat oleh program.
 
 ---
 
-## 🎬 Cara Menjalankan
+## 🔧 Teknologi & Tools
 
-1. Buka di *Visual Studio 2019/2022*
-2. Pastikan project menggunakan *.NET Framework 4.8.1*
-3. Jalankan Program.cs dengan Ctrl + F5
-4. Data tugas akan disimpan secara otomatis ke file JSON
+| Komponen               | Keterangan                                |
+|------------------------|--------------------------------------------|
+| 💻 Bahasa              | C#                                         |
+| 📦 Framework           | .NET Framework 4.8.1                       |
+| ⚙️ Tipe Project         | Windows Console App                        |
+| 📚 Library (NuGet)     | `Newtonsoft.Json` (untuk JSON handling)   |
+| 🛠️ IDE                 | Visual Studio 2022                         |
+
+---
+
+## 🚀 Cara Menjalankan
+
+1. **Buka** proyek di Visual Studio 2022
+2. Pastikan target framework adalah **.NET Framework 4.8.1**
+3. Pastikan sudah install NuGet `Newtonsoft.Json`
+4. Tekan `Ctrl + F5` atau klik `Start Without Debugging`
+5. Jalankan program dan pilih menu dari terminal
+
+---
+
+## 📦 Cara Install Newtonsoft.Json
+
+**Via NuGet GUI:**
+- Klik kanan pada nama project → `Manage NuGet Packages`
+- Cari `Newtonsoft.Json`
+- Klik **Install**
+
+**Via Package Manager Console:**
+```powershell
+Install-Package Newtonsoft.Json
 
 ---
 
@@ -98,6 +117,10 @@ DashboardMahasiswa/
 
 ---
 
-## 📜 Lisensi
+🗂️ Lisensi
 
-Proyek ini hanya untuk keperluan pembelajaran dan tugas akademik.
+Project ini dibuat untuk keperluan edukasi. Bebas digunakan atau dimodifikasi.
+
+
+
+
